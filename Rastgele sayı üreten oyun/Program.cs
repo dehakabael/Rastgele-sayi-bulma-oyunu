@@ -12,6 +12,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("merhaba");
             Random random = new Random();
             int rastgeleSayi1 = random.Next(1, 101);
             int rastgelesayi2 = random.Next(1, 1001);
